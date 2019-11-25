@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ColdChainTransportationApp</string>
+    <string name="title_home">签到</string>
+    <string name="title_dashboard">异常记录</string>
+    <string name="title_notifications">个人中心</string>
+    <string name="tip_account">请输入账号</string>
+    <string name="tip_password">请输入密码</string>
+    <string name="signin">登录</string>
+    <string name="forget_pass">云南工商学院</string>
+    <string name="url">http://192.168.106.2:8080/ColdChainTransportation/</string>
+</resources>
