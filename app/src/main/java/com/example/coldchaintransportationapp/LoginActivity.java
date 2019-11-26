@@ -63,11 +63,13 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void success(Call call, Response response) throws IOException {
                         final String res = response.body().string();
+                        Log.d("success","chenggong");
                         showResponse(res);
                     }
 
                     @Override
                     public void failed(Call call, IOException e) {
+                        Log.d("success","chenggong");
                         showResponse(e.toString());
                     }
                 });

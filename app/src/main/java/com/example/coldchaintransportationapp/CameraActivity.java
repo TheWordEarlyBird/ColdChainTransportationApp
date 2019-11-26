@@ -54,10 +54,10 @@ import okhttp3.Response;
 
 public class CameraActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btn_photo, select_photo,btn_void,select_void;
-    private String url="http://192.168.43.50:8080/AONT/user/andtest";
+    private String url="http://172.20.10.2:8080/ColdChainTransportation/upload/uploadpictures";
     private ImageView headIv;
     private TextView textView;
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "CameraActivity";
     private final int IMAGE_RESULT_CODE = 2;
     private final int PICK = 1;
     private final int VOICE_RESULT_CODE = 3;
